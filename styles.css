@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #8A2BE2;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#question {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.answer-button {
+    display: block;
+    background-color: #FAF0E6;
+    color: #CD853F;
+    border: none;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.answer-button:hover {
+    background-color: #E6E6FA;
+    transform: scale(1.05);
+}
+
+.answer-button:active {
+    background-color: #E6E6FA;
+}
+
+.hidden {
+    display: none;
+}
+
+#next-button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#next-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+#next-button:active {
+    background-color: #1e7e34;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#result h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+#result p {
+    font-size: 18px;
+    color: #444;
+    font-weight: 600;
+}
+
+.answer-button.correct {
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    cursor: default;
+}
+
+.answer-button.correct:hover {
+    background-color: #218838;
+}
+
+
