@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: 'Kenapa mas pe suka wawa,soalnya?',
+        question: 'Kenapa mas pe suka wawi,soalnya?',
         answers: [
             { text: 'Tobrut', correct: false },
             { text: 'cantik', correct: false },
@@ -9,7 +9,7 @@ const questions = [
         ]
     },
     {
-        question: 'kenapa mas pe suka stalking wawa',
+        question: 'kenapa mas pe suka stalking wawi',
         answers: [
             { text: 'soale sangar', correct: false },
             { text: 'soale cek oleh pap imut', correct: true },
@@ -27,7 +27,7 @@ const questions = [
         ]
     },
     {
-        question: 'kenapa pap imut e wawa jadi wallpaper grup e mas pe?',
+        question: 'kenapa pap imut e wawi jadi wallpaper grup e mas pe?',
         answers: [
             { text: 'soale ayu', correct: false },
             { text: 'biar gak bosen', correct: false },
